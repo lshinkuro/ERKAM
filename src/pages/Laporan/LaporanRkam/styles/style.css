@@ -1,0 +1,64 @@
+.rs-table-row-expanded{
+  overflow-y: auto;
+}
+
+.content {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+dt {
+  display: block;
+  float: left;
+  width: 15%;
+  text-align: left;
+}
+
+dd::before {
+  content: ':';
+  margin-right: 0.5rem;
+}
+
+dd {
+  display: block;
+  margin-bottom: 0 !important;
+}
+
+/* table, th, td {
+  border: 1.5px solid black;
+  border-collapse: collapse;
+} */
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignEnd {
+  text-align: end;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.signature {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signature-place {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rkam__filter {
+  row-gap: .5rem;
+  column-gap: 1.5rem;
+}

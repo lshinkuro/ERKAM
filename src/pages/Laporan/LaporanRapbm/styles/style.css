@@ -1,0 +1,16 @@
+.table-rapbm-wrapper > .rs-table {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.table-rapbm-wrapper .rs-table-cell[aria-colspan='3'],
+.table-rapbm-wrapper .rs-table-cell[aria-colspan='3'] + .rs-table-cell {
+  background-color: rgba(0, 128, 0, 1);
+  color: white;
+  text-align: center;
+}
+
+.rapbm-rekap__filter {
+  row-gap: 0.5rem;
+  column-gap: 1.5rem;
+}
