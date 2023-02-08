@@ -17,7 +17,7 @@ const PDFviewer = (props) => {
   return (
     <div className="m-5 p-5 bg-white shadow-md rounded">
       <div className="mt-4" style={{ height: "400px" }}>
-        <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
+        {/* <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
           {url ? (
             <div
               style={{
@@ -42,7 +42,7 @@ const PDFviewer = (props) => {
               Preview area
             </div>
           )}
-        </Worker>
+        </Worker> */}
       </div>
     </div>
   );

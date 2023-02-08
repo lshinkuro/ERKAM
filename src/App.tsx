@@ -26,6 +26,12 @@ const App: React.FC = () => {
   const dispatch = useDispatch();
   const [isStatus, setStatus] = useState(isOnline === "online" ? true : false);
 
+  useEffect(()=>{
+    setTimeout(()=>{
+      document.querySelector("body > iframe")?.remove()
+    }, 300)
+  },[])
+
   useEffect(() => {
     window.addEventListener("online", () => {
       dispatch(setOnline(true));
